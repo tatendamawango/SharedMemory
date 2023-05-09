@@ -59,9 +59,6 @@ public:
 
 		omp_destroy_lock(&lock);
 	};
-	void addThread(int i) {
-
-	}
 
 	void Print() {
 		cout << students.size();
